@@ -1,0 +1,40 @@
+.main{
+    height: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+    
+
+}
+.container{
+    background-color: aliceblue;
+    padding: 1em;
+    margin: 1em;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    
+
+}
+.container.reminder{
+    border-left: 5px solid rgb(34, 0, 128);
+}
+button{
+    padding: 5px;
+    border: none;
+    margin-top: 10px;
+    background-color: rgb(2, 23, 94);
+    color: white;
+    font-weight:500;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 4rem;
+    color: rgb(2, 23, 94);
+}

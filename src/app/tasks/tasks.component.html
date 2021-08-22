@@ -1,0 +1,16 @@
+
+<h1>Add The Tasks</h1>
+
+<div class="main">
+    <app-add-task></app-add-task>
+<div class="container" *ngFor = "let task of tasks" [ngClass]=" {reminder: task.reminder}" (dblclick)="onToggle(task)">
+    
+    <div>
+    <h3>{{task.text}}</h3>
+    <h4>{{task.time}}</h4>
+</div>
+<div>
+    <button (click)="onDelete(task)">Delete</button>
+</div>
+</div>
+</div>
